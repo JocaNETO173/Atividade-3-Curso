@@ -1,0 +1,46 @@
+:root {
+    --branco-principal: #fff;
+    --mentira: #b30909;
+    --cor-fundo: #123E59;
+    --cor-primaria: #49C2F2;
+    --cor-secundaria: #021921;
+    --cor-terc: #9ebeca;
+    --fonte-principal: "Noto Serif", serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    background-image: url(Foyer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dev-text {
+    text-align: center;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px #ff8000;
+
+}
+
+.prince {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--cor-primaria);
+    text-shadow: 0px 0px 10px var(--cor-primaria);
+}
+
+a {
+    text-decoration: none;
+}
